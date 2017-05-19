@@ -1,0 +1,255 @@
+* {
+	box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-transform: inherit;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #010101;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+ .container {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/**************header-section********/
+
+.header-section {
+}
+.logo-search {
+	display: flex;
+	border-bottom: 1px solid #414141;
+}
+
+.logo {
+	
+display: block;
+	
+margin-left: 40px;
+	
+flex: 1;
+}
+
+.logo a {
+}
+
+.logo a img {height: 80px;}
+
+.search {
+	    display: flex;
+	    justify-content: space-around;
+	    flex-wrap: wrap;
+	    width: 240px;
+	    height: 25px;
+	    align-items: center;
+	    margin-top: 20px;
+	    margin-right: 70px;
+}
+
+.search a{
+	    color: #A1A1A1;
+    padding: 5px;
+    background: #3F3F3F;
+        border-radius: 5px;
+
+}
+
+.search a:hover{
+	    color: #FFFFFF;
+    background: #010101;
+}
+
+nav {border-bottom: 1px solid #414141;}
+
+nav ul{display: flex;}
+
+nav ul li{
+    display: flex;
+    flex: 1;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+nav ul li a{background: #A1A1A1;
+	padding: 20px;
+	flex: 1;
+	margin: 10px;
+ border-radius: 5px;}
+	   
+
+nav ul li a:hover{
+	background: #3F3F3F;
+
+}
+
+/**************header-section********/
+
+/**************profile-section********/
+
+.profile-section{
+
+}
+
+.box-1{
+
+display: flex;
+
+border-bottom: 1px solid #414141;
+}
+.list{
+
+flex: 1;
+
+border: 1px solid #414141;
+
+text-align: center;
+
+background: #3F3F3F;
+}
+
+.list ul{
+
+display: flex;
+
+flex-direction: column;
+}
+
+.list ul li{padding: 10px;}
+
+.list ul li a{
+	 border-radius: 5px;
+
+padding: 10px;
+}
+
+.list ul li a:hover{
+	    background: #A1A1A1;
+
+
+}
+
+.list p{
+
+}
+
+.list img{
+
+width: 100%;
+
+
+}
+
+div.profile{
+
+flex: 4;
+}
+
+.box-2{
+	    display: flex;
+
+}
+
+.img {
+	flex: 1;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+.img img{}
+
+.img p{
+	
+margin: 0;
+	
+padding: 0;
+}
+
+.about {
+    flex: 2;
+}
+
+.about ul {font-size: 10px;}
+
+.about ul li {
+}
+
+.about ul li h1 {
+}
+
+.about ul li p {font-size: 15px;}
+
+.signature {
+}
+
+.signature h2 {margin: 0;padding: 0;font-size: 20px;}
+
+
+.signature img{
+	width: 100px;
+    text-align: center;
+}
+
+.shahrukh{margin: 10px;}
+.shahrukh p{
+
+}
+
+
+/**************profile-section********/
+
+/**************footer-section********/
+
+.footer-section{background: #3F3F3F;}
+
+.footer-section .container{
+	    display: flex;
+
+}
+
+.copyright{
+	text-align: center;
+	font-size: 15px;
+	flex:2;
+}
+.copyright a{
+	color: #fff;
+	text-decoration: none;
+}
+.social-icon{
+	margin: 18px;
+	text-align: center;
+	flex: 2;
+}
+.social-icon ul{
+	margin: 0;
+	padding: 0;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icon ul li a{
+    padding: 10px;
+    color: #fff;
+}
+.social-icon ul li a i{
+}
+
+}
+
+/**************footer-section********/
